@@ -2,7 +2,9 @@
 
 ## User Inputs
 
-To take user inputs in Python, you can use the `input()` function. By default, `input()` returns a string, so you'll need to convert it to the desired data type (int, float, or string) using `int()`, `float()`, or leave it as is.
+To take user inputs in Python, you can use the `input()` function. 
+By default, `input()` returns a string, so you'll need to convert it 
+to the desired data type (int, float, or string) using `int()`, `float()`, or leave it as is.
 
 Here's an example code that takes user inputs in different data types:
 
@@ -22,9 +24,11 @@ print(f"You entered a float: {user_input_float}")
 print(f"You entered a string: {user_input_string}")
 ```
 
-In this example, `int(input(...))` is used to take an integer input, `float(input(...))` is used for a floating-point input, and `input(...)` alone is used for a string input.
+In this example, `int(input(...))` is used to take an integer input, 
+`float(input(...))` is used for a floating-point input, and `input(...)` alone is used for a string input.
 
-Keep in mind that if the user provides input that cannot be converted to the specified data type, a `ValueError` will be raised. You might want to handle this using try-except blocks if necessary.
+Keep in mind that if the user provides input that cannot be converted to the specified data type, 
+a `ValueError` will be raised. You might want to handle this using try-except blocks if necessary.
 
 ## Control Statements
 
@@ -82,11 +86,14 @@ else:
     print("You are not eligible for a loan.")
 ```
 
-In the last example, we have a nested `if` statement. This means there is an `if` statement inside another `if` statement. The inner `if` statement is only executed if the condition of the outer `if` statement is true.
+In the last example, we have a nested `if` statement. This means there is an `if` statement inside another `if` statement. 
+The inner `if` statement is only executed if the condition of the outer `if` statement is true.
 
-Remember, in Python, indentation is crucial. The code within a block is indented, and the standard convention is to use 4 spaces for each level of indentation.
+Remember, in Python, indentation is crucial. The code within a block is indented,
+and the standard convention is to use 4 spaces for each level of indentation.
 
-These examples showcase the basic usage of conditional statements in Python. Depending on the condition(s) evaluated, different code blocks are executed.
+These examples showcase the basic usage of conditional statements in Python. 
+Depending on the condition(s) evaluated, different code blocks are executed.
 
 ## Loops
 
@@ -150,11 +157,14 @@ These examples showcase the basic usage of conditional statements in Python. Dep
    numbers = [i for i in range(10) if i % 2 == 0]
    ```
 
-These control structures and loops are powerful tools in Python that allow you to build complex programs and automate repetitive tasks. Practice using them in various scenarios to become proficient in controlling the flow of your code. Happy coding! 🚀
+These control structures and loops are powerful tools in Python that allow you to build complex programs 
+and automate repetitive tasks. Practice using them in various scenarios to become 
+proficient in controlling the flow of your code. Happy coding! 🚀
 
 ## SAMPLE PROGRAM
 
-Certainly! Below is a sample Python program that demonstrates user inputs, control statements (if-else), and loops (for loop and while loop):
+Certainly! Below is a sample Python program that demonstrates user inputs, 
+control statements (if-else), and loops (for loop and while loop):
 
 ```python
 # User inputs
