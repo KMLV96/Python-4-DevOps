@@ -5,7 +5,8 @@
 Python is known for its clean and readable syntax. Here are some fundamental syntax rules:
 
 1. **Statements and Indentation**:
-   - Python uses indentation (whitespace) to define blocks of code, rather than curly braces `{}`. This is a unique feature of Python and helps in maintaining a clean and consistent code structure.
+   - Python uses indentation (whitespace) to define blocks of code, rather than curly braces `{}`.
+   - This is a unique feature of Python and helps in maintaining a clean and consistent code structure.
 
    Example:
 
@@ -18,7 +19,8 @@ Python is known for its clean and readable syntax. Here are some fundamental syn
    ```
 
 2. **Comments**:
-   - Comments start with a `#` character and are ignored by the Python interpreter. They are used to add explanations or notes within the code.
+   - Comments start with a `#` character and are ignored by the Python interpreter.
+   - They are used to add explanations or notes within the code.
 
    Example:
 
@@ -27,7 +29,8 @@ Python is known for its clean and readable syntax. Here are some fundamental syn
    ```
 
 3. **Variables and Identifiers**:
-   - Variables are used to store data. In Python, you can assign a value to a variable using `=`. Identifiers are names given to variables, functions, classes, etc.
+   - Variables are used to store data. In Python, you can assign a value to a variable using `=`.
+   - Identifiers are names given to variables, functions, classes, etc.
 
    Example:
 
@@ -41,7 +44,8 @@ Python is known for its clean and readable syntax. Here are some fundamental syn
    ```
 
 4. **Data Types**:
-   - Python has several built-in data types, including integers, floats, strings, booleans, lists, tuples, dictionaries, etc. We'll discuss them in more detail below.
+   - Python has several built-in data types, including integers, floats, strings,
+     booleans, lists, tuples, dictionaries, etc. We'll discuss them in more detail below.
 
 ## Data Types:
 
