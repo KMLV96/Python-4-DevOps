@@ -1,12 +1,15 @@
 # DAY-3 | File handling in Python
 
-Handling files and directories is a common task in programming. Python provides a rich set of modules in its standard library to work with files and directories. 
+Handling files and directories is a common task in programming. 
+Python provides a rich set of modules in its standard library to work with files and directories. 
 
 ### Working with Files
 
 #### 1. Opening and Closing Files
 
-To work with a file in Python, you first need to open it. You can open a file using the built-in `open()` function. It takes two arguments - the file path and the mode in which you want to open the file (read, write, append, etc.).
+To work with a file in Python, you first need to open it. 
+You can open a file using the built-in `open()` function. 
+It takes two arguments - the file path and the mode in which you want to open the file (read, write, append, etc.).
 
 ```python
 # Opening a file in read mode
@@ -117,4 +120,6 @@ import shutil
 shutil.rmtree('mydir')
 ```
 
-These are the basics of working with files and directories in Python. Remember to always handle files carefully, and make sure to close them after you're done to free up system resources. Additionally, when working with directories, be cautious about deleting files, as it's a permanent action.
+These are the basics of working with files and directories in Python. 
+Remember to always handle files carefully, and make sure to close them after you're done to free up system resources. 
+Additionally, when working with directories, be cautious about deleting files, as it's a permanent action.
