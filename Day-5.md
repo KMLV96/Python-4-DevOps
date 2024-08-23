@@ -96,6 +96,6 @@ print(result_divide)    # Output: 4.0
 
 6. **Collaboration**: Modules enable multiple programmers to work on different parts of a project simultaneously.
 
-Remember to give your functions and modules descriptive names and include comments or docstrings to explain their purpose and usage. This makes your code more understandable and maintainable.
-
+Remember to give your functions and modules descriptive names and include comments or docstrings to explain their purpose and usage.
+This makes your code more understandable and maintainable.
 Using functions and modules is a best practice in Python programming and contributes to writing clean, efficient, and organized code.
