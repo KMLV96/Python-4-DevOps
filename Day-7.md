@@ -1,18 +1,23 @@
 # DAY-6 | Socket Library
 
-The Python `socket` library provides a set of tools for network communication. It allows programs to create and manage network connections for sending and receiving data over a network. Here are some key concepts and functions provided by the `socket` library:
+The Python `socket` library provides a set of tools for network communication. 
+It allows programs to create and manage network connections for sending and receiving data over a network. 
+Here are some key concepts and functions provided by the `socket` library:
 
 ### 1. **Socket**:
 
-A socket is an endpoint for communication between two machines over a network. It can be used to establish connections, send and receive data, and close connections.
+A socket is an endpoint for communication between two machines over a network. 
+It can be used to establish connections, send and receive data, and close connections.
 
 ### 2. **Socket Types**:
 
 Python's `socket` library supports various socket types, but the two most common are:
 
-- **Stream Sockets (`socket.SOCK_STREAM`)**: These provide a reliable, connection-oriented communication channel. They use protocols like TCP (Transmission Control Protocol) and ensure that data is delivered in the order it was sent.
+- **Stream Sockets (`socket.SOCK_STREAM`)**: These provide a reliable, connection-oriented communication channel.
+- They use protocols like TCP (Transmission Control Protocol) and ensure that data is delivered in the order it was sent.
 
-- **Datagram Sockets (`socket.SOCK_DGRAM`)**: These are connectionless and provide an unreliable, message-oriented communication channel. They use protocols like UDP (User Datagram Protocol) and do not guarantee delivery order or delivery at all.
+- **Datagram Sockets (`socket.SOCK_DGRAM`)**: These are connectionless and provide an unreliable, message-oriented communication channel.
+- They use protocols like UDP (User Datagram Protocol) and do not guarantee delivery order or delivery at all.
 
 ### 3. **Address Families**:
 
@@ -42,7 +47,8 @@ server_socket.bind(server_address)
 
 ### 6. **Listening and Accepting Connections**:
 
-For a server, it needs to start listening for incoming connections. When a client tries to connect, the server uses `accept()` to establish a connection.
+For a server, it needs to start listening for incoming connections. 
+When a client tries to connect, the server uses `accept()` to establish a connection.
 
 ```python
 server_socket.listen(5)
@@ -76,7 +82,8 @@ client_socket.close()
 
 ## Client-Server COnnection using Socket Library
 
-Client-server connection using Python's `socket` library. This example demonstrates a basic TCP communication between a server and a client.
+Client-server connection using Python's `socket` library. 
+This example demonstrates a basic TCP communication between a server and a client.
 
 ### Server Code:
 
@@ -143,9 +150,11 @@ Here's how it works:
 
 1. The server creates a TCP/IP socket and binds it to a specific address and port.
 2. It listens for incoming connections using `server_socket.listen(1)`.
-3. When a client attempts to connect, `server_socket.accept()` accepts the incoming connection and returns a new socket (`client_socket`) and the address of the client.
-4. The server receives data from the client using `client_socket.recv(1024)`.
-5. It then sends a response back to the client using `client_socket.sendall(message.encode())`.
-6. Both the client and server close their respective sockets after the communication.
+3. When a client attempts to connect, `server_socket.accept()` accepts the incoming connection and
+ returns a new socket (`client_socket`) and the address of the client.
+5. The server receives data from the client using `client_socket.recv(1024)`.
+6. It then sends a response back to the client using `client_socket.sendall(message.encode())`.
+7. Both the client and server close their respective sockets after the communication.
 
-Make sure to run the server code first, followed by the client code. You can adjust the address and port as needed for your specific use case.
+Make sure to run the server code first, followed by the client code. 
+You can adjust the address and port as needed for your specific use case.
